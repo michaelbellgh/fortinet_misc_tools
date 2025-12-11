@@ -6,8 +6,7 @@ Features
 - Query the Fortinet max-value API for available hardware models: see [`get_hardware_models`](compare_max_values/compare_max_values.py).
 - Query max-value data for one or more models: see [`get_max_value_table`](compare_max_values/compare_max_values.py).
 - Generate a CSV that lists per-model limits and percentage summaries: see [`write_comparison_csv`](compare_max_values/compare_max_values.py).
-- All CLI entrypoint logic is in [`main`](compare_max_values/compare_max_values.py).
-- Script source: [compare_max_values/compare_max_values.py](compare_max_values/compare_max_values.py)
+
 
 Requirements
 - Python 3.8+
@@ -48,8 +47,3 @@ Notes
 - The script talks to the Fortinet docs API at https://docs.fortinet.com/max-value-table and uses a POST interface.
 - The script expects the API responses as used in the implementation; errors from the API raise exceptions.
 - It spoofs the User Agent - as requests user agent is default rejected. Use responsibly!
-
-License
-
-}
-```
