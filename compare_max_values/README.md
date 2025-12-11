@@ -42,12 +42,7 @@ CSV output
   - Summary_<model> columns with percentage comparisons (each model vs others)
 - Summary percentages are computed by [`write_comparison_csv`](compare_max_values/compare_max_values.py) using effective limits (vdom_limit unless 0, then global_limit when available).
 
-Programmatic usage
-You can import functions directly from the script, for example:
-```py
-from compare_max_values.compare_max_values import get_max_value_table, write_comparison_csv
-# ... call functions in your code ...
-```
+
 
 Notes
 - The script talks to the Fortinet docs API at https://docs.fortinet.com/max-value-table and uses a POST interface.
