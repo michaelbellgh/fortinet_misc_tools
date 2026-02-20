@@ -155,8 +155,8 @@ Examples:
     
     parser.add_argument(
         '-v', '--version',
-        default='7.6.4',
-        help='FortiOS software version (default: 7.6.4)'
+        default='7.6.6',
+        help='FortiOS software version (default: 7.6.6)'
     )
     
     parser.add_argument(
